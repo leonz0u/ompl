@@ -18,7 +18,7 @@ RUN apt-get update && \
         libxml2-dev && \
     rm -rf /var/lib/apt/lists/*
 
-RUN install2.r --error --deps TRUE \
+RUN install2.r --error \
     shiny \
     shinyjs \
     V8 \
